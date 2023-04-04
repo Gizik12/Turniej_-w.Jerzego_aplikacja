@@ -1,21 +1,28 @@
-@media (min-width: 1000px)
-{
-    *{
+*{
     margin: 0;
     padding: 0;
 }
-    @font-face{
+body{
+    background-color: gray;
+    overflow-x:hidden;
+    margin: 0;
+}
+#tlo{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.3;
+}
+@font-face{
     font-family: 'Husari';
     src:url(cz.ttf);
 }
 
-    #wraper{
+#wraper{
     display: inline-block;
     background-color: white;
-    width: 100%;
-    height: 100vh;
 }
-    #top{
+#top{
     margin-top: 3%;
     padding-bottom: 3%;
     display: inline-flex;
@@ -23,22 +30,20 @@
     text-align: center;
     border-bottom: 2px solid black;
 }
-    #napis{
+#napis{
     font-family: Husari;
     display: block;
     width: 100%;
-    margin-top: 20%;
-    margin-left: 7%;
-    font-size: 50px;
+    margin-top: 15%;
+    font-size: 70px;
 }
-    #logo{
+#logo{
     display: inline-block;
     margin-left: 3%;
     width:30% ;
     height: 20%;
-
 }
-    #mid{
+#mid{
     font-family: Husari;
     font-size: 23px; 
     display: inline-flex;
@@ -46,116 +51,80 @@
     width: 100%;
     text-align: center;
     }
-    #zastepy{
-        width: 60%;
-        border-bottom: 2px solid black;
-        padding-bottom: 3%;
-        margin-left: 5%;
-        margin-right: 5%;
-        
-    }
-    #punkty{
-        width: 20%;
-        border-bottom: 2px solid black;
-         padding-bottom: 3%;
-        margin-left: 5%;
-        margin-right: 5%;
-    }
+#miejsce{
+    border-bottom: 2px solid black;
+    width: 10%;
+    margin-left: 3%;
 }
+#nazwa_zastepu{
+    width: 60%;
+    border-bottom: 2px solid black;
+    padding-bottom: 3%;
+    margin-left: 5%;
+}
+#punkty{
+    width: 15%;
+    border-bottom: 2px solid black;
+    padding-bottom: 3%;
+    margin-left: 5%;
+}
+.zastepy{
+    font-family: Husari;
+    font-size: 23px;
+    width: 100%;
+    display: inline-flex;
+    text-align: center;
+    margin-top: 2%;
+}
+.pozycja{
+    width: 10%;
+    border: 2px solid black;
+    margin-left: 3%;
+}
+.nazwy{
+    width: 60%;
+    border: 2px solid black; 
+    margin-left: 4.5%;     
+}
+.liczby{
+    width: 15%;
+    border: 2px solid black;
+    margin-left: 4.5%;
+}
+@media screen and (min-width: 1000px){
 
-@media (max-width: 1000px)
-{
-    *{
-    margin: 0;
-    padding: 0;
-}
     body{
+        background-color: gray;
         overflow-x:hidden;
+        margin: 0;
     }
     #tlo{
-        display:flex;
         position: absolute;
-        height: 140vh;
+        height: 300%;
+        width: 100%;
         opacity: 0.3;
     }
-    @font-face{
-    font-family: 'Husari';
-    src:url(cz.ttf);
-}
-
     #wraper{
-    display: inline-block;
-    background-color: white;
-    width: 100%;
-    height: 100vh;
-}
-    #top{
-    margin-top: 3%;
-    padding-bottom: 3%;
-    display: inline-flex;
-    width: 100%;
-    text-align: center;
-    border-bottom: 2px solid black;
-}
-    #napis{
-    font-family: Husari;
-    display: block;
-    width: 100%;
-    margin-top: 20%;
-    margin-left: 7%;
-    font-size: 50px;
-}
+        display: inline-block;
+        background-color: white;
+        margin-right: 15%;
+        margin-left: 15%;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
     #logo{
-    display: inline-block;
-    margin-left: 3%;
-    width:30% ;
-    height: 20%;
-
-}
-    #mid{
-    font-family: Husari;
-    font-size: 23px; 
-    display: inline-flex;
-    margin-top: 7%;
-    width: 100%;
-    text-align: center;
+        width: 20%;
+        height: 20%;
+    }
+    #napis{
+        font-size: 50px;
+        margin-left: 8%;
+        margin-top: 10%;
     }
     #nazwa_zastepu{
         width: 60%;
         border-bottom: 2px solid black;
         padding-bottom: 3%;
         margin-left: 5%;
-        margin-right: 5%;
-        
     }
-    #punkty{
-        width: 20%;
-        border-bottom: 2px solid black;
-        padding-bottom: 3%;
-        margin-left: 5%;
-        margin-right: 5%;
-    }
-    .zastepy{
-        margin-top: 5%;
-        font-family: Husari;
-        font-size: 23px;
-        width: 100%;
-        display: inline-flex;
-        text-align: center;
-    }
-    .nazwy{
-        width: 60%;
-        border: 2px solid black;
-        margin-left: 5%;
-        margin-right: 5%;
-        
-    }
-    .liczby{
-        width: 20%;
-        border: 2px solid black;
-        margin-left: 5%;
-        margin-right: 5%;
-    }
-        
-
-}
+};
