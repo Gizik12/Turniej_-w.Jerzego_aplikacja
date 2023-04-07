@@ -101,8 +101,7 @@ body{
     }
     #tlo{
         height: 755%;
-        width: 200%;
-        margin-left: -50%;
+        width: 100%;
     }
     #wraper{
         display: inline-block;
