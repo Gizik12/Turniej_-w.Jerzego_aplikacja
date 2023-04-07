@@ -9,7 +9,7 @@ body{
 }
 #tlo{
     position: absolute;
-    height: 400%;
+    height: 280%;
     width: 100%;
     opacity: 0.3;
     overflow-x: hidden;
