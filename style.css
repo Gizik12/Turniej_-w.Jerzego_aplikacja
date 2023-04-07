@@ -3,16 +3,16 @@
     padding: 0;
 }
 body{
-    background-color: gray;
-    overflow-x:hidden;
     margin: 0;
+    background-color: gray;
+    overflow-x: hidden;
 }
 #tlo{
     position: absolute;
-    height: 755%;
-    width: 200%;
+    height: 400%;
+    width: 100%;
     opacity: 0.3;
-    margin-left: -40%;
+    overflow-x: hidden;
 }
 @font-face{
     font-family: 'Husari';
@@ -102,7 +102,7 @@ body{
     #tlo{
         height: 755%;
         width: 200%;
-        opacity: 0.3;
+        margin-left: -50%;
     }
     #wraper{
         display: inline-block;
