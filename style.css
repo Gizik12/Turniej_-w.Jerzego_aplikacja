@@ -16,7 +16,7 @@ body{
 }
 @font-face{
     font-family: 'Husari';
-    src:url(cz.ttf);
+    src:url(Berylium.ttf);
 }
 
 #wraper{
@@ -116,7 +116,7 @@ body{
         height: 20%;
     }
     #napis{
-        font-size: 50px;
+        font-size: 45px;
         margin-left: 8%;
         margin-top: 10%;
     }
