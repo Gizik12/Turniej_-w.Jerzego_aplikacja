@@ -1,10 +1,10 @@
 function start()
-{
-    let tab = {"Aenigmatici lupi":37,"Ametyst":12,"Andromeda":23,"Białe wilki":29,"Bryza":22,"Cefeusz":0,"Delfiny":50,"Dragoni":20,"Dziubki":0,
-               "Feniksy":35,"Forti lupi":38,"Halit":49,"Ilex":0,"Imbricaria":0,"Jastrzębie":54,"Jutrzenka":19,"Kaczki":13,"Kasjopeja":11,"Kotlina":0,
-               "Lisowczycy":35,"Lisy":23,"Lupi citi":14,"Macranthera":32,"Orion":36,"Palustris":79,"Pancerni":81,"Pectinata":69,"Petryhorcy":52,
-               "Pingwiny":48,"Prinus":41,"Promienie":51,"Przełęcz":0,"Płomienie":0,"Rajtarzy":45,"Rapidi lupi":19,"Rarogi":20,"Salix":33,"Sambucus":64,"Sępy":16,
-               "Silva herbis":0,"Sorbus":69,"Suber":10,"Szafir":34,"Uszatki":36,"Wzgórze":49,"Zefir":16,"Żubry":4};
+{321
+    let tab = {"Aenigmatici lupi":104,"Ametyst":139,"Andromeda":70,"Białe wilki":156,"Bryza":222,"Delfiny":164,"Dragoni":202,
+               "Feniksy":72,"Forti lupi":155,"Halit":139,"Jastrzębie":166,"Jutrzenka":132,"Kaczki":105,"Kasjopeja":136,"Kotlina":126,
+               "Lisowczycy":246,"Lisy":80,"Lupi citi":165,"Macranthera":255,"Orion":85,"Palustris":296,"Pancerni":309,"Pectinata":234,"Petryhorcy":251,
+               "Pingwiny":134,"Prinus":206,"Promienie":215,"Przełęcz":145,"Rajtarzy":255,"Rapidi lupi":109,"Rarogi":198,"Salix":171,"Sambucus":214,"Sępy":65,
+               "Sorbus":212,"Suber":105,"Szafir":160,"Uszatki":121,"Wzgórze":164,"Zefir":127,"Żubry":110};
     let sortedEntries = Object.entries(tab).sort((a, b) => b[1] - a[1]);
     let sortedObj = {};
     for (let entry of sortedEntries) 
